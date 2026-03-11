@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Arial;
+  background-color: #FFA95A;
+  color: white;
+  background-image: url('../Recipes/Images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FF8B5A;
+  padding: 18px 8px;
+  flex-shrink: 3;
+}
+
+.navbar, ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-shrink: 8px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: #FFD45A;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 9px;
+  cursor: pointer;
+  flex-shrink: 15;
+}
